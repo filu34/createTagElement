@@ -8,7 +8,7 @@ I'm also on the beginning of the road to learn how to code, and I found that, it
        
     const createTagEl = function(parent, child, atrArrayObj) {
        child = document.createElement(child);
-       parent.appendChild(child).setAttribute();
+       parent.appendChild(child);
 
        for (let i = 0; i < atrArrayObj.length; i++) {
            child.setAttribute(atrArrayObj[i][0], atrArrayObj[i][1]);
@@ -23,7 +23,7 @@ I'm also on the beginning of the road to learn how to code, and I found that, it
 
     const createTagEl = function(parent, child, atrArrayObj) {
        child = document.createElement(child);
-       parent.appendChild(child).setAttribute();
+       parent.appendChild(child);
 
        for (let i = 0; i < atrArrayObj.length; i++) {
            child.setAttribute(atrArrayObj[i][0], atrArrayObj[i][1]);
